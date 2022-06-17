@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2? family= Atkinson+Hyperlegible & family= Cagliostro & family= Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800; 0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900 & family= Open+Sans:ital,wgh@0,300;0,400;0,500;0,600;0,6001;0,600;0,6001;0,8001;0,7001; 1,800 & oila= Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900 & family= Yanone00000;sat@ee00000; 600;700 & displey=almashtirish');
+
+body {
+    font-family: 'Kagliostro', sans-serif;
+    background-color: blueviolet;
+    color: white;
+}
+
+.bg{
+    background-color: rgb(66, 6, 122);
+}
+nav {
+    img {
+        width: 60px;
+    }
+
+    .mn {
+        font-weight: 700;
+        font-size: 42px !important;
+        color: #4AAEE8 !important;
+
+    }
+
+    ul {
+        li {
+            a {
+                color: #4AAEE8 !important;
+                text-transform: uppercase;
+                text-align: center;
+                font-weight: 700;
+                font-size: 20px;
+                margin-left: 50px;
+                margin-right: 150px;
+
+                &:hover {
+                    color: #104768 !important;
+                }
+            }
+        }
+
+        .my1btn {
+            background-color: #1c8ecf;
+            border: none;
+            border-radius: 8px;
+
+            &:hover {
+                background-color: #104768;
+            }
+
+            a {
+                color: white !important;
+            }
+        }
+    }
+
+    @media (max-width: 992px) {
+        ul {
+            li {
+                a {
+                    margin: 0 auto;
+                }
+            }
+
+            .my1btn {
+                text-align: center;
+                width: 50%;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+.container {
+
+    .text {
+        h1 {
+            text-align: center;
+            margin: 10px 0;
+            color: rgb(160, 28, 28);
+            font-weight: 700;
+        }
+
+        h4 {
+            font-weight: 600;
+            padding: 30px 5px;
+        }
+    }
+
+    .video {
+        video {
+            width: 56%;
+            margin-left: 25px;
+            border-radius: 40px;
+
+        }
+    }
+
+    .video {
+        h3 {
+            text-align: center;
+            margin: 10px 0;
+            color: rgb(160, 28, 28);
+            font-weight: 700;
+        }
+    }
+
+    @media (max-width: 992px) {
+
+        video {
+            width: 90% !important;
+            margin: 30px 0;
+            margin-right: 20px;
+        }
+    }
+
+
+    .sg {
+        a {
+            i {
+                margin-right: 10px;
+                font-size: 52px;
+                color: white;
+            }
+        }
+    }
+
+    .my1btn {
+        background-color: #1c8ecf;
+        border: none;
+        border-radius: 8px;
+
+        &:hover {
+            background-color: #104768;
+        }
+
+        a {
+            color: white !important;
+        }
+    }
+    .my1btn{
+        text-align: center;
+        width: 50%;
+        margin: 0 auto;
+     }
+}
