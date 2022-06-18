@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2? family= Atkinson+Hyperlegible & family= Cagliostro & family= Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800; 0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900 & family= Open+Sans:ital,wgh@0,300;0,400;0,500;0,600;0,6001;0,600;0,6001;0,8001;0,7001; 1,800 & oila= Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900 & family= Yanone00000;sat@ee00000; 600;700 & displey=almashtirish");
 body {
-  font-family: 'Kagliostro', sans-serif;
   background-color: blueviolet;
   color: white;
 }
@@ -15,7 +14,7 @@ nav img {
 
 nav .mn {
   font-weight: 700;
-  font-size: 42px !important;
+  font-size: 32px !important;
   color: #4AAEE8 !important;
 }
 
@@ -26,7 +25,7 @@ nav ul li a {
   font-weight: 700;
   font-size: 20px;
   margin-left: 50px;
-  margin-right: 150px;
+  margin-right: 100px;
 }
 
 nav ul li a:hover {
@@ -115,5 +114,10 @@ nav ul .my1btn a {
   text-align: center;
   width: 50%;
   margin: 0 auto;
+}
+
+footer {
+  padding: 20px;
+  background-color: #6e17c0;
 }
 /*# sourceMappingURL=style.css.map */
